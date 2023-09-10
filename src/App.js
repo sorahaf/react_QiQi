@@ -8,8 +8,9 @@ import './input.css';
 
 function App() {
   return (
-  <div style={{ 
-    backgroundImage: `url("https://images4.alphacoders.com/109/1099190.png")` 
+  <div class = "bg-cover bg-center bg-no-repeat"
+  style={{ 
+    backgroundImage: `url("https://preview.redd.it/66ic9c791ih61.png?auto=webp&s=967caa3ebc04e9262d7ba83ee0534015a3a5cb5b")` ,
   }} h-screen >
     <Navbar1/>
     <Routes>
